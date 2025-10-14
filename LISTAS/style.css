@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #1565c0, #6a1b9a); /* Azul → Roxo */
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.caixa {
+  background-color: #ffffff;
+  padding: 30px;
+  border: 1px solid #b39ddb; /* Roxo suave */
+  border-radius: 10px;
+  width: 320px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  color: #4527a0; /* Roxo escuro */
+  margin-bottom: 20px;
+}
+
+input {
+  width: 90%;
+  padding: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #90caf9;
+  border-radius: 5px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #6a1b9a;
+}
+
+button {
+  padding: 8px 12px;
+  width: 95%;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #1976d2, #8e24aa); /* Azul → Roxo */
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #0d47a1, #6a1b9a);
+}
+
+#mensagem {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+#lista {
+  margin-top: 15px;
+  text-align: left;
+}
+
+#lista ul {
+  list-style: none;
+  padding: 0;
+}
+
+#lista li {
+  background-color: #ede7f6; /* Roxo claro */
+  margin: 5px 0;
+  padding: 6px;
+  border-radius: 4px;
+}
